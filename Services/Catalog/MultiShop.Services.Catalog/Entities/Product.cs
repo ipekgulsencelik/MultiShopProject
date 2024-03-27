@@ -12,6 +12,7 @@ namespace MultiShop.Services.Catalog.Entities
         public decimal ProductPrice { get; set; }
         public string ProductImageURL { get; set; }
         public string ProductDescription { get; set; }
+        public bool IsHome { get; set; }
         public bool IsDeleted { get; set; }
 
         [BsonRepresentation(BsonType.ObjectId)]
