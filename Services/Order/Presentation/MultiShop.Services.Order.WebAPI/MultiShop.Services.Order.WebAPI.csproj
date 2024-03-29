@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Servicess\Order\Core\MultiShop,Services.Order.Domain\MultiShop,Services.Order.Domain.csproj" />
+    <ProjectReference Include="..\..\Core\MultiShop.Services.Order.Application\MultiShop.Services.Order.Application.csproj" />
+    <ProjectReference Include="..\..\Instructure\MultiShop.Services.Order.Persistence\MultiShop.Services.Order.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
