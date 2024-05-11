@@ -1,10 +1,12 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MultiShop.Services.Order.Application.Features.Mediator.Commands.OrderingCommands;
 using MultiShop.Services.Order.Application.Features.Mediator.Queries.OrderingQueries;
 
 namespace MultiShop.Services.Order.WebAPI.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class OrderingsController : ControllerBase
