@@ -1,5 +1,6 @@
 ﻿using MultiShop.Services.Order.Application.Features.CQRS.Results.AddressResults;
 using MultiShop.Services.Order.Application.Interfaces;
+using MultiShop_Services.Order.Domain.Entities;
 
 namespace MultiShop.Services.Order.Application.Features.CQRS.Handlers.AddressHandlers
 {

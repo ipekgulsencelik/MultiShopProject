@@ -1,10 +1,6 @@
 ﻿using MultiShop.Services.Order.Application.Features.CQRS.Commands.AddressCommands;
 using MultiShop.Services.Order.Application.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MultiShop_Services.Order.Domain.Entities;
 
 namespace MultiShop.Services.Order.Application.Features.CQRS.Handlers.AddressHandlers
 {
