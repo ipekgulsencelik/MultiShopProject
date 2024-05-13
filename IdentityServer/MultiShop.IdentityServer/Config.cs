@@ -50,7 +50,7 @@ namespace MultiShop.IdentityServer
 
         public static IEnumerable<Client> Clients => new Client[]
         {
-            //Visitor
+            // Visitor
             new Client
             {
                 ClientId="MultiShopVisitorId",
@@ -61,7 +61,7 @@ namespace MultiShop.IdentityServer
                 AllowAccessTokensViaBrowser=true
             },
 
-            //Manager
+            // Manager
             new Client
             {
                 ClientId="MultiShopManagerId",
@@ -75,7 +75,7 @@ namespace MultiShop.IdentityServer
                 IdentityServerConstants.StandardScopes.Profile }
             },
 
-            //Admin
+            // Admin
             new Client
             {
                 ClientId="MultiShopAdminId",
